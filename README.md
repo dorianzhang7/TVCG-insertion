@@ -13,12 +13,13 @@ conda env create -f environment.yaml
 We utilize the Paint-by-Example as initialization, please download the pre-trained models from [Hugging Face](https://huggingface.co/Fantasy-Studio/Paint-by-Example/resolve/main/model.ckpt) and save the model to the directory `./checkpoints`.
 
 ## Training
-The configuration file is `./config/v.yaml`, you can set the file path of the training data in --dataset-dir. For real objects, the number of training iterations --max_steps is 4000 and the training module --freeze_model is crossattn-kv. For virtual objects, the number of training iterations --max_steps is 2000 and the training module --freeze_model is crossattn.
+The configuration file is `./config/v.yaml`, you can set the file path of the training data in --dataset-dir. For real objects, the number of training iterations --max_steps is 4000 and the training module --freeze_model is crossattn-kv. For virtual objects, the number of training iterations --max_steps is 2000 and the training module --freeze_model is crossattn. Then, you run the script train.sh to train the model for objects.
 ```
 sh train.sh
 ```
 
 ## Implicit Parametric Representation
+You can run the script get_deltas.sh to obtain implicit parameter representations from the trained parameters.
 ```
 sh get_deltas.sh
 ```
