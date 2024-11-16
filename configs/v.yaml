@@ -8,7 +8,7 @@ data:
           target: ldm.data.openimages.OpenImageDataset
           params:
               state: train
-              dataset_dir: /workspace/code/fusion-diffusion3.0/id_image/cat
+              dataset_dir: /workspace/code/fusion-diffusion3.0/data/id_image/cat
               arbitrary_mask_percent: 0.5
               image_size: 512
 
