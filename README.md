@@ -28,4 +28,4 @@ sh inference.sh
 ```
 
 ## Acknowledgements
-We thank the contributors of [Paint by Example](https://github.com/openai/guided-diffusion](https://github.com/Fantasy-Studio/Paint-by-Example) and [Custom Diffusion](https://github.com/adobe-research/custom-diffusion).
+We thank the contributors of [Paint by Example](https://github.com/Fantasy-Studio/Paint-by-Example) and [Custom Diffusion](https://github.com/adobe-research/custom-diffusion).
