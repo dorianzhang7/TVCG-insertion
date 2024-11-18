@@ -1,6 +1,6 @@
 python scripts/inference.py \
 --plms \
---config /workspace/code/fusion-diffusion3.0/configs/v2.yaml \
+--config /workspace/code/fusion-diffusion3.0/configs/v.yaml \
 --dir /workspace/code/fusion-diffusion3.0/ \
 --id_dir /workspace/data/InsertSet/id_image/ \
 --model_name 2024-11-16T10-13-33_v2 \
