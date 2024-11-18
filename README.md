@@ -14,6 +14,9 @@ conda env create -f environment.yaml
 ## Download the Pre-trained Model
 We utilize the Paint-by-Example as initialization, please download the pre-trained models from [Hugging Face](https://huggingface.co/Fantasy-Studio/Paint-by-Example/resolve/main/model.ckpt) and save the model to the directory `./checkpoints`.
 
+## Data
+We propose a practical dataset for training and testing, named InsertSet, and the training data consists of two parts: few-shot images and same-category images, we build a set of same-category images that comprises 101 common categories consisting of a total of 20,882 data pairs (object images and bounding boxes). Each category contains approximately 200 to 400 data pairs. For the testing dataset in InsertSet, we manually draw reasonable ROI masks for 1000 background scenes to generate semantically correct insertion images. These images encompass a wide range of background environments, such as indoor, outdoor, real, virtual, and cartoon images, showcasing remarkable diversity.
+
 ## Training
 The configuration file is `./config/v.yaml`, you can set the file path of the training data in --dataset-dir. For real objects, the number of training iterations --max_steps is 4000 and the training module --freeze_model is crossattn-kv. For virtual objects, the number of training iterations --max_steps is 2000 and the training module --freeze_model is crossattn. Then, you run the script train.sh to train the model for objects.
 ```
