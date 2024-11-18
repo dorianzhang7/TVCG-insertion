@@ -6,7 +6,7 @@ python scripts/inference.py \
 --model_name 2024-11-16T10-13-33_v2 \
 --example_img 0001 \
 --example_roi example_101_ROI.txt \
---id_class cat \
+--id_class rabbit \
 --seed 321 \
 --scale 5 \
 --gpu 0 \
