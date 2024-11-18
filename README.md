@@ -19,15 +19,17 @@ sh train.sh
 ```
 
 ## Implicit Parametric Representation
-You can run the script get_deltas.sh to obtain implicit parameter representations from the trained parameters. --path is the file path of the model parameters obtained from training.
+You can run the script get_deltas.sh to obtain implicit parameter representations from the trained parameters. --path is the file path of the model parameters obtained from training. 
 ```
 sh get_deltas.sh
 ```
 
 ## Testing
+You can run the script inference.sh to insert the object into any background images. --example_img is the path of the background image for testing.
 ```
 sh inference.sh
 ```
+
 
 ## Acknowledgements
 We thank the contributors of [Paint by Example](https://github.com/Fantasy-Studio/Paint-by-Example) and [Custom Diffusion](https://github.com/adobe-research/custom-diffusion).
