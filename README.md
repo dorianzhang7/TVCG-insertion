@@ -19,7 +19,7 @@ sh train.sh
 ```
 
 ## Implicit Parametric Representation
-You can run the script get_deltas.sh to obtain implicit parameter representations from the trained parameters.
+You can run the script get_deltas.sh to obtain implicit parameter representations from the trained parameters. --path is the file path of the model parameters obtained from training.
 ```
 sh get_deltas.sh
 ```
