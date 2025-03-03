@@ -35,7 +35,7 @@ You can run the script inference.sh to insert the object into any background ima
 sh inference.sh
 ```
 
-##Citation
+## Citation
 If you use this model in your research, please consider citing:
 ```
 @article{zhang2024inserting,
@@ -47,7 +47,7 @@ If you use this model in your research, please consider citing:
 }
 ```
 
-##License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgements
