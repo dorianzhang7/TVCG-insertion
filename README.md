@@ -35,6 +35,20 @@ You can run the script inference.sh to insert the object into any background ima
 sh inference.sh
 ```
 
+##Citation
+If you use this model in your research, please consider citing:
+```
+@article{zhang2024inserting,
+  title={Inserting Objects into any Background Images via Implicit Parametric Representation},
+  author={Zhang, Qi and Xing, Guanyu and Luo, Mengting and Zhang, Jianwei and Liu, Yanli},
+  journal={IEEE Transactions on Visualization and Computer Graphics},
+  year={2024},
+  publisher={IEEE}
+}
+```
+
+##License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgements
 We thank the contributors of [Paint by Example](https://github.com/Fantasy-Studio/Paint-by-Example) and [Custom Diffusion](https://github.com/adobe-research/custom-diffusion).
